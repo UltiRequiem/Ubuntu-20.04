@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-read -rp "Do you want to install Plank? [Y/n] " response3
+read -p "Do you want to install Plank? [Y/n] " response3
 
-if "$response3" = "Y"
+if test "$response3" = "Y"
 then
     apt update
 
@@ -10,13 +10,13 @@ then
     echo "Plank has been installed successfully."
 
 else
-    echo "You didn't install Brave Secure Web Browser"
+    echo "You didn't install Plank"
 fi
 
 
 read -p "Do you want to install Visual Studio Code? [Y/n] " response
 
-if "$response" = "Y"
+if test "$response" = "Y"
 then
     apt update
 	apt install software-properties-common apt-transport-https wget
@@ -29,9 +29,9 @@ else
     echo "You didn't install Visual Studio Code"
 fi
 
-read -rp "Do you want to install Brave Web Browser? [Y/n] " response2
+read -p "Do you want to install Brave Web Browser? [Y/n] " response2
 
-if "$response2" = "Y"
+if test "$response2" = "Y"
 then
     apt install apt-transport-https curl gnupg
 
@@ -45,4 +45,26 @@ then
     echo "Brave has been installed successfully."
 else
     echo "You didn't install Brave Secure Web Browser"
+fi
+
+read -p "Do you want to remove LibreOffice? [Y/n] " response4
+
+if test "$response4" = "Y"
+then
+    apt-get remove --purge libreoffice-\* -y
+    sudo apt autoremove
+    echo "LibreOffice has been removed successfully."
+else
+    echo "You didn't remove LibreOffice"
+fi
+
+read -p "Do you want to install WPS(SNAP)? [Y/n] " response5
+
+if test "$response5" = "Y"
+then
+    apt-get install snapd
+    snap install wps-office
+    echo "WPS has been installed successfully."
+else
+    echo "You didn't install WPS"
 fi
