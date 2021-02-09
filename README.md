@@ -10,3 +10,5 @@ Also you have to run the file as sudo:
 ```bash
 sudo ./setup.sh
 ```
+
+See a Tutorial [here](https://youtu.be/GiGbVtY63SU)
