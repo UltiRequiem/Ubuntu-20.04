@@ -8,7 +8,7 @@ then
     echo "Ubuntu Games has been removed successfully."
 
 else
-    echo "You didn't remove Ubuntu Games"
+    echo "You didn't remove Ubuntu Games."
 fi
 
 read -p "Do you want to remove Thunderbird? [Y/n] " thubird
@@ -19,7 +19,7 @@ then
     echo "Thunderbird has been removed successfully."
 
 else
-    echo "You didn't remove Ubuntu Games"
+    echo "You didn't remove Thunderbird."
 fi
 
 read -p "Do you want to install Plank? [Y/n] " plank
@@ -32,7 +32,7 @@ then
     echo "Plank has been installed successfully."
 
 else
-    echo "You didn't install Plank"
+    echo "You didn't install Plank."
 fi
 
 
@@ -49,7 +49,7 @@ then
 	apt install code
     echo "Visual Studio Code has been installed successfully."
 else
-    echo "You didn't install Visual Studio Code"
+    echo "You didn't install Visual Studio Code."
 fi
 
 read -p "Do you want to install Brave Web Browser? [Y/n] " brave
@@ -67,7 +67,7 @@ then
     apt install brave-browser
     echo "Brave has been installed successfully."
 else
-    echo "You didn't install Brave Secure Web Browser"
+    echo "You didn't install Brave Secure Web Browser."
 fi
 
 read -p "Do you want to remove LibreOffice? [Y/n] " loffice
@@ -78,7 +78,7 @@ then
     sudo apt autoremove
     echo "LibreOffice has been removed successfully."
 else
-    echo "You didn't remove LibreOffice"
+    echo "You didn't remove LibreOffice."
 fi
 
 read -p "Do you want to install WPS(SNAP)? [Y/n] " wps
@@ -89,7 +89,7 @@ then
     snap install wps-office
     echo "WPS has been installed successfully."
 else
-    echo "You didn't install WPS"
+    echo "You didn't install WPS."
 fi
 
 read -p "Do you want to install Recommended NVIDIA Proprietary Drivers? [Y/n] " nvidia
@@ -100,7 +100,7 @@ then
     ubuntu-drivers autoinstall
     echo "Proprietary NVIDIA Drivers has installed successfully."
 else
-    echo "You didn't install NVIDIA Drivers"
+    echo "You didn't install NVIDIA Drivers."
 fi
 
 read -p "Do you want to reboot? [Y/n] " reb
@@ -109,5 +109,5 @@ if test "$reb" = "Y"
 then
     reboot
 else
-    echo "You didn't reboot"
+    echo "You didn't reboot."
 fi
