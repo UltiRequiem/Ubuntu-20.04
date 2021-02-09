@@ -6,3 +6,7 @@ To make it executable you must:
 ```bash
 chmod +x setup.sh
 ```
+Also you have to run the file as sudo:
+```bash
+sudo ./setup.sh
+```
