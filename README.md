@@ -5,3 +5,4 @@ Things to do:
 - remove games,thunderbird,etc
 - install vscode,jetbrainstool,brave
 - sudo apt update && sudo apt upgrade
+- Put the Titlebar Buttons on left
