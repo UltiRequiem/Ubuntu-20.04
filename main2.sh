@@ -61,7 +61,7 @@ fi
 
 read -p "Do you want to install WPS(SNAP)? [Y/n] " wps
 
-if test "$rwps" = "Y"
+if test "$wps" = "Y"
 then
     apt-get install snapd
     snap install wps-office
@@ -70,9 +70,9 @@ else
     echo "You didn't install WPS"
 fi
 
-read -p "Do you want to install Recommended NVIDIA Proprietary Drivers? [Y/n] " wps
+read -p "Do you want to install Recommended NVIDIA Proprietary Drivers? [Y/n] " nvidia
 
-if test "$rwps" = "Y"
+if test "$nvidia" = "Y"
 then
     ubuntu-drivers devices
     ubuntu-drivers autoinstall
@@ -81,9 +81,9 @@ else
     echo "You didn't install NVIDIA Drivers"
 fi
 
-read -p "Do you want to reboot? [Y/n] " wps
+read -p "Do you want to reboot? [Y/n] " reb
 
-if test "$rwps" = "Y"
+if test "$reb" = "Y"
 then
     reboot
 else
