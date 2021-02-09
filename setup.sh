@@ -1,5 +1,27 @@
 #!/usr/bin/env bash
 
+read -p "Do you want to remove Games? [Y/n] " gmaes
+
+if test "$gmaes" = "Y"
+then
+    apt-get purge gnome-games-common gbrainy && sudo apt-get autoremove
+    echo "Ubuntu Games has been removed successfully."
+
+else
+    echo "You didn't remove Ubuntu Games"
+fi
+
+read -p "Do you want to remove Thunderbird? [Y/n] " thubird
+
+if test "$thubird" = "Y"
+then
+    sudo apt-get purge thunderbird*
+    echo "Thunderbird has been removed successfully."
+
+else
+    echo "You didn't remove Ubuntu Games"
+fi
+
 read -p "Do you want to install Plank? [Y/n] " plank
 
 if test "$plank" = "Y"
