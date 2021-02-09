@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-read -p "Do you want to install Plank? [Y/n] " response3
+read -p "Do you want to install Plank? [Y/n] " plank
 
-if test "$response3" = "Y"
+if test "$plank" = "Y"
 then
     apt update
 
@@ -14,9 +14,10 @@ else
 fi
 
 
-read -p "Do you want to install Visual Studio Code? [Y/n] " response
 
-if test "$response" = "Y"
+read -p "Do you want to install Visual Studio Code? [Y/n] " vscode
+
+if test "$vscode" = "Y"
 then
     apt update
 	apt install software-properties-common apt-transport-https wget
@@ -29,9 +30,9 @@ else
     echo "You didn't install Visual Studio Code"
 fi
 
-read -p "Do you want to install Brave Web Browser? [Y/n] " response2
+read -p "Do you want to install Brave Web Browser? [Y/n] " brave
 
-if test "$response2" = "Y"
+if test "$brave" = "Y"
 then
     apt install apt-transport-https curl gnupg
 
@@ -47,9 +48,9 @@ else
     echo "You didn't install Brave Secure Web Browser"
 fi
 
-read -p "Do you want to remove LibreOffice? [Y/n] " response4
+read -p "Do you want to remove LibreOffice? [Y/n] " loffice
 
-if test "$response4" = "Y"
+if test "$loffice" = "Y"
 then
     apt-get remove --purge libreoffice-\* -y
     sudo apt autoremove
@@ -58,13 +59,33 @@ else
     echo "You didn't remove LibreOffice"
 fi
 
-read -p "Do you want to install WPS(SNAP)? [Y/n] " response5
+read -p "Do you want to install WPS(SNAP)? [Y/n] " wps
 
-if test "$response5" = "Y"
+if test "$rwps" = "Y"
 then
     apt-get install snapd
     snap install wps-office
     echo "WPS has been installed successfully."
 else
     echo "You didn't install WPS"
+fi
+
+read -p "Do you want to install Recommended NVIDIA Proprietary Drivers? [Y/n] " wps
+
+if test "$rwps" = "Y"
+then
+    ubuntu-drivers devices
+    ubuntu-drivers autoinstall
+    echo "Proprietary NVIDIA Drivers has installed successfully."
+else
+    echo "You didn't install NVIDIA Drivers"
+fi
+
+read -p "Do you want to reboot? [Y/n] " wps
+
+if test "$rwps" = "Y"
+then
+    reboot
+else
+    echo "You didn't reboot"
 fi
