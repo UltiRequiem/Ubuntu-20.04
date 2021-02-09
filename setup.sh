@@ -92,6 +92,20 @@ else
     echo "You didn't install WPS."
 fi
 
+read -p "Do you want to install Signal? [Y/n] " desk
+
+if test "$desk" = "Y"
+then
+    wget -O- https://updates.signal.org/desktop/apt/keys.asc |\
+    apt-key add -
+    echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" |\
+    tee -a /etc/apt/sources.list.d/signal-xenial.list
+    apt update && sudo apt install signal-desktop
+    echo "Signal Desktop has been installed successfully."
+else
+    echo "You didn't install Signal."
+fi
+
 read -p "Do you want to install Recommended NVIDIA Proprietary Drivers? [Y/n] " nvidia
 
 if test "$nvidia" = "Y"
