@@ -4,7 +4,7 @@ read -p "Do you want to remove Games? [Y/n] " gmaes
 
 if test "$gmaes" = "Y"
 then
-    apt-get purge gnome-games-common gbrainy && apt-get autoremove
+    sudo apt-get purge gnome-2048 aisleriot atomix gnome-chess five-or-more hitori iagno gnome-klotski lightsoff gnome-mahjongg gnome-mines gnome-nibbles quadrapassel four-in-a-row gnome-robots gnome-sudoku swell-foop tali gnome-taquin gnome-tetravex
     echo "Ubuntu Games has been removed successfully."
 
 else
