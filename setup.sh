@@ -4,7 +4,7 @@ read -p "Do you want to remove Games? [Y/n] " gmaes
 
 if test "$gmaes" = "Y"
 then
-    apt-get purge gnome-games-common gbrainy && sudo apt-get autoremove
+    apt-get purge gnome-games-common gbrainy && apt-get autoremove
     echo "Ubuntu Games has been removed successfully."
 
 else
@@ -15,7 +15,7 @@ read -p "Do you want to remove Thunderbird? [Y/n] " thubird
 
 if test "$thubird" = "Y"
 then
-    sudo apt-get purge thunderbird*
+    apt-get purge thunderbird*
     echo "Thunderbird has been removed successfully."
 
 else
