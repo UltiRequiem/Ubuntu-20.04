@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-
-sudo apt-get purge thunderbird*
+apt purge thunderbird*
 echo "Thunderbird has been removed successfully."
