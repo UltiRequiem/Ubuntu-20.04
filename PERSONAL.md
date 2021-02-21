@@ -5,10 +5,10 @@
 - [DBeaver](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/dbeaver.sh)
 - MySQL Workbench
 - [JetBrains ToolBox:](https://www.jetbrains.com/toolbox-app)
-  - PyCharm
-  - IntelliJ
-  - CLion
-  - WebStorm
+  - [PyCharm](https://www.jetbrains.com/pycharm/download)
+  - [IntelliJ](https://www.jetbrains.com/intellij/download)
+  - [CLion](https://www.jetbrains.com/clion/download)
+  - [WebStorm](https://www.jetbrains.com/webstorm/download/)
   - [Web Browser Extension](https://www.jetbrains.com/toolbox-app)
 
 ## Personalization: 
