@@ -13,5 +13,9 @@ sudo add-apt-repository universe
 sudo apt install gnome-tweak-tool
 
 ```
-
 - [Sweet Dark](https://www.gnome-look.org/p/1253385)
+
+## Web browsers:
+- Brave (Principal)
+- Chrome (For School)
+- Chromium (For Scrapping and Testing)
