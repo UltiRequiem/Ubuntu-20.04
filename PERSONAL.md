@@ -1,7 +1,7 @@
 ## Programming: 
 
 - VSCode
-- Atom
+- [Atom](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/atom.sh)
 - PyCharm
 - DBeaver
 - MySQL Workbench
