@@ -17,6 +17,7 @@
 
 ## Web browsers:
 - [Brave](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/brave.sh) (Principal)
+- [FireFox](https://www.mozilla.org/en-US/firefox/all/#product-desktop-release) (Second Principal)
 - [Chrome](https://www.google.com/chrome) (For School)
 - [Chromium](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/chromium.sh) (For Scrapping and Testing):
-- FireFox
+
