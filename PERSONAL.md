@@ -20,3 +20,7 @@
 - [Chrome](https://www.google.com/chrome) (For School)
 - [Chromium](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/chromium.sh) (For Scrapping and Testing)
 
+## ETC:
+- [Spotify](https://www.spotify.com/us/download/linux)
+- [Kazam](./Individual-Installers/kazam.sh)
+- [BleachBit](./Individual-Installers/bleachbit.sh)
