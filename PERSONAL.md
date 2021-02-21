@@ -2,7 +2,7 @@
 
 - [VSCode](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/vscode.sh)
 - [Atom](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/atom.sh)
-- DBeaver
+- [DBeaver](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/dbeaver.sh)
 - MySQL Workbench
 - [JetBrains ToolBox:](https://www.jetbrains.com/toolbox-app)
   - PyCharm
@@ -12,7 +12,7 @@
   - [Web Browser Extension](https://www.jetbrains.com/toolbox-app)
 
 ## Personalization: 
-- [Tweaks](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/tweaks.sh): 
+- [Tweaks](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/tweaks.sh)
 - [Sweet Dark](https://www.gnome-look.org/p/1253385)
 
 ## Web browsers:
