@@ -7,12 +7,7 @@
 - MySQL Workbench
 
 ## Personalization: 
-- Tweaks: 
-```bash 
-sudo add-apt-repository universe
-sudo apt install gnome-tweak-tool
-
-```
+- [Tweaks](https://github.com/UltiRequiem/Ubuntu-20.04/blob/main/Individual-Installers/tweaks.sh): 
 - [Sweet Dark](https://www.gnome-look.org/p/1253385)
 
 ## Web browsers:
