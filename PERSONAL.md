@@ -24,3 +24,4 @@
 - [Spotify](https://www.spotify.com/us/download/linux)
 - [Kazam](./Individual-Installers/kazam.sh)
 - [BleachBit](./Individual-Installers/bleachbit.sh)
+- [Login Screen Wallpaper](https://github.com/PRATAP-KUMAR/focalgdm3/tree/TrailRun)
