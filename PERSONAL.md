@@ -6,7 +6,7 @@
 - DBeaver
 - MySQL Workbench
 
-Personalization: 
+## Personalization: 
 - Tweaks: 
 ```bash 
 sudo add-apt-repository universe
