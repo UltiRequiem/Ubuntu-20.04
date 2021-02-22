@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-aptinstall bleachbit
+apt install bleachbit
